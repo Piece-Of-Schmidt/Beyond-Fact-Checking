@@ -3,7 +3,7 @@ library(reshape2)
 
 
 # load data
-eva = readRDS("all_eval_data.rds")
+eva = readRDS("data/all_eval_data.rds")
 
 # decide whether data shall be restricted to best models
 only_keep_best_prompt_per_model = T
