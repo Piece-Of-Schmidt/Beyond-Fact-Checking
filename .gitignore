@@ -50,7 +50,7 @@ po/*~
 rsconnect/
 
 # API keys
-keys.txt
+data/keys.txt
 
 # MD Data
 evaluation_texts.csv
