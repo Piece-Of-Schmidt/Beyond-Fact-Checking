@@ -1,0 +1,5 @@
+key,value
+prompt_simple_all,"Unten steht ein journalistischer Artikel. Bewerte ihn anhand der folgenden Kriterien. Gib zu jedem Kriterium an, ob dieses 'ERFÜLLT' oder 'NICHT ERFÜLLT' ist. Gib nur das jeweilige Label zurück und nichts sonst."
+prompt_simple_each,"Unten steht ein journalistischer Artikel. Bewerte ihn anhand des folgenden Kriteriums. Gib an, ob es 'ERFÜLLT' oder 'NICHT ERFÜLLT' ist. Gib nur das jeweilige Label zurück und nichts sonst."
+prompt_reasoning_each,"Unten steht ein journalistischer Artikel. Bewerte ihn anhand des folgenden Kriteriums. Schreibe zuerst ein kurzes Gutachten von höchstens drei Sätzen. Schreibe anschließend 'ERFÜLLT', wenn das Kriterium erfüllt ist, oder 'NICHT ERFÜLLT' sonst."
+prompt_reasoning_all,"Unten steht ein journalistischer Artikel. Bewerte ihn anhand der folgenden Kriterien. Schreibe zu jedem Kriterium zuerst ein kurzes Gutachten von höchstens drei Sätzen. Schreibe anschließend 'ERFÜLLT', wenn das Kriterium erfüllt ist, oder 'NICHT ERFÜLLT' sonst. Verfahre so für jedes Kriterium einzeln. Nach jedem einzelnen Kriterium schreibe '<NEXT>' und mache dann mit dem nächsten Kriterium weiter."
