@@ -38,6 +38,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+.Rproj
 
 # pkgdown site
 docs/
@@ -47,3 +48,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# API keys
+keys.txt
+
+# MD Data
+evaluation_texts.csv
