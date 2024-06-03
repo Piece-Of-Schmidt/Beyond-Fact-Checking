@@ -37,6 +37,7 @@ Shades-of-Quality/
 - `Mistral_inference.ipynb`: Jupyter Notebook for running inference using the Mistral models open-mistral-7b, open-mixtral-8x22b, and mistral-large-latest.
 - `create_plots.R`: R script for creating the plots presented in the paper.
 
+
 ## Usage
 To reproduce the analysis, follow these steps:
 
@@ -68,3 +69,8 @@ cd Shades-of-Quality
 ## Acknowledgments
 
 This work was partly funded by the "Innovationsfonds" of the German Science Journalists' Association (Wissenschaftspressekonferenz). The presented analyses were aided by resources made available by the project "Trustworthy Performance Evaluation of Large Language Models" of the Research Center Trustworthy Data Science and Security.
+
+## Contribution
+
+Please note: For legal reasons the repository cannot provide all data, e.g., the test/training articles and corresponding expert reports are deleted. Please let us know if you feel that there is anything missing that we could add. For bug reports, comments and questions please use the issue tracker.
+
