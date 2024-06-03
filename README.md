@@ -41,23 +41,20 @@ Shades-of-Quality/
 To reproduce the analysis, follow these steps:
 
 1. Clone the repository:
-
 ```{bash}
 git clone https://github.com/Piece-Of-Schmidt/Shades-of-Quality.git
 cd Shades-of-Quality
 ```
 
 2. Set up your environment:
-
 - Ensure you have Jupyter Notebook installed for running the `.ipynb` files.
-- For the R script, make sure you have R installed along with the required packages.
+- For the `R` script, make sure you have R installed along with the required packages.
 
 3. Run the inference notebooks:
-
 - Open each of the `.ipynb` files in a Jupyter Notebook and run the cells to perform inference using the respective models.
 
 4. Generate plots:
-- Run the create_plots.R script in an R environment to generate the visualizations used in the research paper.
+- Run the `create_plots.R` script in an R environment to generate the visualizations used in the research paper.
 
 
 
