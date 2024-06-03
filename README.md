@@ -29,6 +29,9 @@ Shades-of-Quality/
 ## Folders and Files
 
 - data/: Contains the data files used in the analysis. The folder contains the evalatuations of all models and the human experts for each of the 28 test articles. **Note:** The original articles that were analyzed in this research cannot be shared publicly.
+- `data/all_eval_data.json`: JSON file that contains all the predictions from all models. Our results are based on this data.
+- `data/criteria.csv`: The MD criteria that the LLMs get to see in the prompt.
+- `data/prompts.csv`: File that shows the wording of the different prompt techniques tested.
 - `GPT_inference.ipynb`: Jupyter Notebook that was used to obtain the predicition of the GPT models GPT-4o, GPT-4-1106-preview, GPT-4-turbo, and GPT-3.5.-turbo-0125. 
 - `LLaMA_inference.ipynb`: Jupyter Notebook used to obtain the predictions of LLaMA-3-8B and LLaMA-3-70B.
 - `Mistral_inference.ipynb`: Jupyter Notebook for running inference using the Mistral models open-mistral-7b, open-mixtral-8x22b, and mistral-large-latest.
