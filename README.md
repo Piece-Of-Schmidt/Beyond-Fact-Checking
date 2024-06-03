@@ -16,13 +16,18 @@ Shades-of-Quality/
 ├── data/
 │   └── all_eval_data.json
 |   └── criteria.csv
+|   └── naive_bayes_model.rds
 |   └── prompts.csv
+|   └── ranger.rds
+|   └── signal.rds
 │
 ├── .gitignore
 ├── GPT_inference.ipynb
 ├── LLaMA_inference.ipynb
 ├── Mistral_inference.ipynb
+├── NB_inference.R
 ├── README.md
+├── RF_inference.R
 ├── create_plots.R
 ```
 
@@ -31,10 +36,15 @@ Shades-of-Quality/
 - data/: Contains the data files used in the analysis. The folder contains the evalatuations of all models and the human experts for each of the 28 test articles. **Please note:** For legal reasons the original articles that were analyzed in this research cannot be shared publicly.
 - `data/all_eval_data.json`: JSON file that contains all the predictions from all models. Our results are based on this data.
 - `data/criteria.csv`: The MD criteria that the LLMs get to see in the prompt.
+- `naive_bayes_model.rds`: R-Object containing the NB models.
 - `data/prompts.csv`: File that shows the wording of the different prompt techniques tested.
+- `data/ranger.rds`: R-Object containing the RF models.
+- `data/signal.rds`: R-Object containing signal words for the RF models.
 - `GPT_inference.ipynb`: Jupyter Notebook that was used to obtain the predicition of the GPT models GPT-4o, GPT-4-1106-preview, GPT-4-turbo, and GPT-3.5.-turbo-0125. 
 - `LLaMA_inference.ipynb`: Jupyter Notebook used to obtain the predictions of LLaMA-3-8B and LLaMA-3-70B.
 - `Mistral_inference.ipynb`: Jupyter Notebook for running inference using the Mistral models open-mistral-7b, open-mixtral-8x22b, and mistral-large-latest.
+- `NB_inference.R`: R script for running inference using the Naïve Bayes Model.
+- `RF_inference.R`: R script for running inference using the Random Forest Classifier.
 - `create_plots.R`: R script for creating the plots presented in the paper.
 
 **Please note:** To use the LLM inference scripts, you will need to pass an OpenAI, Mistral, or Groq API key, respectively.
