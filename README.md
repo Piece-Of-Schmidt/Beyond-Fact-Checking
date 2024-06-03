@@ -64,6 +64,7 @@ cd Shades-of-Quality
 
 **3. Run the inference notebooks:**
 - Open each of the `.ipynb` files in a Jupyter Notebook and run the cells to perform inference using the respective models.
+- To perform inference using the ML models, open each of the `.R` files in RStudio and run the code.
 
 **4. Generate plots:**
 - Run the `create_plots.R` script in an R environment to generate the visualizations used in the research paper.
