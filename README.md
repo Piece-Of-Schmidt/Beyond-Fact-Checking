@@ -14,7 +14,9 @@ The repository is organized as follows:
 Shades-of-Quality/
 │
 ├── data/
-│   └── (data files used for the analysis)
+│   └── all_eval_data.json
+|   └── criteria.csv
+|   └── prompts.csv
 │
 ├── .gitignore
 ├── GPT_inference.ipynb
