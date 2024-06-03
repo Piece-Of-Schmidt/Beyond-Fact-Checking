@@ -53,6 +53,7 @@ rsconnect/
 
 # API keys
 data/keys.txt
+data/keys.csv
 
 # MD Data
 data/evaluation_texts.csv

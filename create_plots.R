@@ -1,9 +1,10 @@
+library(jsonlite)
 library(ggplot2)
 library(reshape2)
 
 
 # load data
-eva = readRDS("data/all_eval_data.rds")
+eva = jsonlite::fromJSON("data/all_eval_data.json")
 
 # decide whether data shall be restricted to best models
 only_keep_best_prompt_per_model = T
@@ -135,7 +136,7 @@ gate_keepers$Var2 = rep(short_names, each=28)
 
 # plot
 ggplot(gate_keepers, aes(x=Var1, y=Var2, fill=value)) +
-  geom_tile(alpha=0.8, color="azure", size=0.05) +
+  geom_tile(alpha=0.8, color="azure", linewidth=0.05) +
   scale_fill_manual(values=c("aquamarine3", "coral", "azure2")) +
   theme_classic() +
   labs(x = NULL, y=NULL, fill="Predicted Article Quality") +
