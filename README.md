@@ -37,6 +37,7 @@ Shades-of-Quality/
 - `Mistral_inference.ipynb`: Jupyter Notebook for running inference using the Mistral models open-mistral-7b, open-mixtral-8x22b, and mistral-large-latest.
 - `create_plots.R`: R script for creating the plots presented in the paper.
 
+**Please note:** To use the LLM inference scripts, you will need to pass an OpenAI, Mistral, or Groq API key, respectively.
 
 ## Usage
 To reproduce the analysis, follow these steps:
