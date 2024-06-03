@@ -53,4 +53,4 @@ rsconnect/
 data/keys.txt
 
 # MD Data
-evaluation_texts.csv
+data/evaluation_texts.csv
