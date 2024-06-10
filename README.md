@@ -63,7 +63,7 @@ cd Shades-of-Quality
 - For the `.R` script, make sure you have R installed along with the required packages.
 
 **3. Run the inference notebooks:**
-- Open each of the `.ipynb` files in a Jupyter Notebook and run the cells to perform inference using the respective models.
+- Open each of the `.ipynb` files in a Jupyter Notebook and run the cells to perform inference using the respective models. You will need to pass an OpenAI, Mistral, or Groq API key, respectively.
 - To perform inference using the ML models, open each of the `.R` files in RStudio and run the code.
 
 **4. Generate plots:**
