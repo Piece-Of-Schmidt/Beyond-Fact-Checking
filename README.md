@@ -36,7 +36,7 @@ Shades-of-Quality/
 - data/: Contains the data files used in the analysis. The folder contains the evalatuations of all models and the human experts for each of the 28 test articles. **Please note:** For legal reasons the original articles that were analyzed in this research cannot be shared publicly.
 - `data/all_eval_data.json`: JSON file that contains all the predictions from all models. Our results are based on this data.
 - `data/criteria.csv`: The MD criteria that the LLMs get to see in the prompt.
-- `naive_bayes_model.rds`: R-Object containing the NB models.
+- `data/naive_bayes_model.rds`: R-Object containing the NB models.
 - `data/prompts.csv`: File that shows the wording of the different prompt techniques tested.
 - `data/ranger.rds`: R-Object containing the RF models.
 - `data/signal.rds`: R-Object containing signal words for the RF models.
