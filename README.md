@@ -1,4 +1,4 @@
-# Shades of Quality: How AI helps to improve Science Communication
+# Questions of Quality: How AI can help to improve Science Communication
 
 This repository contains the scripts and data used for the research paper titled "Questions of Quality: How AI can help to improve Science Communication". The research explores the potential of machine learning (ML) and large language models (LLMs) for the semi-automated quality assessment of scientific news articles.
 
