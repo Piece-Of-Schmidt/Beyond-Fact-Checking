@@ -84,5 +84,5 @@ This work was partly funded by the "Innovationsfonds" of the German Science Jour
 
 ## Contribution
 
-Please note: For legal reasons the repository cannot provide all data, e.g., the test/training articles and corresponding expert reports are deleted. Please let us know if you feel that there is anything missing that we could add. For bug reports, comments and questions please use the [issue tracker](https://github.com/Piece-Of-Schmidt/Shades-of-Quality/issues).
+Please let us know if you feel that there is anything missing that we could add. For bug reports, comments and questions please use the [issue tracker](https://github.com/Piece-Of-Schmidt/Shades-of-Quality/issues).
 
