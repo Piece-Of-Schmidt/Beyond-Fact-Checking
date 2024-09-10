@@ -56,7 +56,7 @@ To reproduce the analysis, follow these steps:
 
 **1. Clone the repository:**
 ```{bash}
-git clone https://github.com/Piece-Of-Schmidt/Shades-of-Quality.git
+git clone https://github.com/Piece-Of-Schmidt/Questions-of-Quality.git
 cd Shades-of-Quality
 ```
 
