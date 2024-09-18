@@ -11,7 +11,7 @@ Reliable scientific information is crucial for forming public opinion and making
 The repository is organized as follows:
 
 ```{kotlin}
-Shades-of-Quality/
+Beyond-Fact-Checking/
 │
 ├── data/
 │   └── all_eval_data.json
@@ -56,8 +56,8 @@ To reproduce the analysis, follow these steps:
 
 **1. Clone the repository:**
 ```{bash}
-git clone https://github.com/Piece-Of-Schmidt/Questions-of-Quality.git
-cd Shades-of-Quality
+git clone https://github.com/Piece-Of-Schmidt/Beyond-Fact-Checking.git
+cd Beyond-Fact-Checking
 ```
 
 **2. Set up your environment:**
@@ -86,5 +86,5 @@ This work was partly funded by the "Innovationsfonds" of the German Science Jour
 
 ## Contribution
 
-Please let us know if you feel that there is anything missing that we could add. For bug reports, comments and questions please use the [issue tracker](https://github.com/Piece-Of-Schmidt/Shades-of-Quality/issues).
+Please let us know if you feel that there is anything missing that we could add. For bug reports, comments and questions please use the [issue tracker](https://github.com/Piece-Of-Schmidt/Beyond-Fact-Checking/issues).
 
