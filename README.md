@@ -35,7 +35,7 @@ Beyond-Fact-Checking/
 
 ## Folders and Files
 
-- data/: Contains the data files used in the analysis. The folder contains the evalatuations of all models and the human experts for each of the 28 test articles. **Please note:** For legal reasons the original articles that were analyzed in this research cannot be shared publicly.
+- data/: Contains the data files used in the analysis. The folder contains the evalatuations of all models and the human experts for each of the 28 test articles.
 - `data/all_eval_data.json`: JSON file that contains all the predictions from all models. Our results are based on this data.
 - `data/criteria.csv`: The MD criteria that the LLMs get to see in the prompt.
 - `data/naive_bayes_model.rds`: R-Object containing the NB models.
