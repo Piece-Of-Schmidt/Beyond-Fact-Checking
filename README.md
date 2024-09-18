@@ -1,6 +1,6 @@
-# Questions of quality: How AI can help to improve science communication
+# Beyond Fact-Checking: Harnessing AI for News Quality Assessment
 
-This repository contains the scripts and data used for the research paper titled "Questions of quality: How AI can help to improve science communication". The research explores the potential of machine learning (ML) and large language models (LLMs) for the semi-automated quality assessment of scientific news articles.
+This repository contains the scripts and data used for the research paper titled "Beyond Fact-Checking: Harnessing AI for News Quality Assessment". The research explores the potential of machine learning (ML) and large language models (LLMs) for the semi-automated quality assessment of scientific news articles.
 
 ## About this Research
 
