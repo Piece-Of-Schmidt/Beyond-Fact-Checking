@@ -120,8 +120,8 @@ lthresh = 5
 hthresh = 8
 
 # select models
-models_to_compare = c("gpt-4-preview", "RF", "claude-3.5", "gold")
-short_names = c("gpt-4", "RF", "claude", "experts")
+models_to_compare = c("human_low", "gpt-4-preview", "RF", "claude-3.5", "gold")
+short_names = c("human_low", "gpt-4", "RF", "claude", "experts")
 
 # calculate result
 gate_keepers = sapply(models_to_compare, function(model){
@@ -136,7 +136,7 @@ gate_keepers$Var2 = rep(short_names, each=28)
 
 # plot
 ggplot(gate_keepers, aes(x=Var1, y=Var2, fill=value)) +
-  geom_tile(alpha=0.8, color="azure", linewidth=0.05) +
+  geom_tile(alpha=0.8, color="azure", linewidth=0.1) +
   scale_fill_manual(values=c("aquamarine3", "coral", "azure2")) +
   theme_classic() +
   labs(x = NULL, y=NULL, fill="Predicted Article Quality") +
@@ -146,7 +146,8 @@ ggplot(gate_keepers, aes(x=Var1, y=Var2, fill=value)) +
     axis.ticks.x=element_blank(),
     legend.position = "bottom") +
   scale_y_discrete(limits = short_names) +
-  annotate("rect", xmin=0.5, xmax=28.5, ymin=3.5, ymax=4.5, color="grey2", fill=NA, linewidth=.6, linetype="dotted")
+  annotate("rect", xmin=0.5, xmax=28.5, ymin=4.5, ymax=5.5, color="grey2", fill=NA, linewidth=.3, linetype="solid") +
+  annotate("rect", xmin=0.5, xmax=28.5, ymin=0.5, ymax=1.5, color="grey2", fill=NA, linewidth=.7, linetype="dotted")
 
 
 
