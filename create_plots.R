@@ -37,7 +37,7 @@ if(only_keep_best_prompt_per_model){
   # give short names
   names(all_results)[1:9] = c("gpt-3.5", "gpt-4o", "gpt-4-turbo", "gpt-4-preview", "mistral_7b", "mixtral", "mistral_large", "llama_8b", "llama_70b", "claude-3.5")
   
-}
+}else all_results = eva
 
 
 
