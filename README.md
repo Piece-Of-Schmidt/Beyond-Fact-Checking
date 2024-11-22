@@ -46,7 +46,7 @@ Beyond-Fact-Checking/
 - `data/signal.rds`: R-Object containing signal words for the RF models.
 - `data/raw_texts.csv`: CSV file containing the documents to be evaluated.
 - `data/train_data_sample.jsonl`: Sample file showing the training data used to fine-tune the LLMs.
-<br>
+\\
 - `Claude_inference.ipynb`: Jupyter Notebook that was used to obtain the predicition of Claude 3.5-Sonnet. 
 - `GPT_inference.ipynb`: Jupyter Notebook that was used to obtain the predicition of the GPT models GPT-4o, GPT-4-1106-preview, GPT-4-turbo, and GPT-3.5.-turbo-0125. 
 - `LLaMA_inference.ipynb`: Jupyter Notebook used to obtain the predictions of LLaMA-3-8B and LLaMA-3-70B.
