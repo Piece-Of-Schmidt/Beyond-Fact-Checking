@@ -37,7 +37,7 @@ Beyond-Fact-Checking/
 
 ## Folders and Files
 
-- data/: Contains the data files used in the analysis. The folder contains the evalatuations of all models and the human experts for each of the 28 test articles.
+- `data/`: Contains the data files used in the analysis. The folder contains the evalatuations of all models and the human experts for each of the 28 test articles.
 - `data/all_eval_data.json`: JSON file that contains all the predictions from all models. Our results are based on this data.
 - `data/criteria.csv`: The MD criteria that the LLMs get to see in the prompt.
 - `data/naive_bayes_model.rds`: R-Object containing the NB models.
@@ -46,6 +46,7 @@ Beyond-Fact-Checking/
 - `data/signal.rds`: R-Object containing signal words for the RF models.
 - `data/raw_texts.csv`: CSV file containing the documents to be evaluated.
 - `data/train_data_sample.jsonl`: Sample file showing the training data used to fine-tune the LLMs.
+
 - `Claude_inference.ipynb`: Jupyter Notebook that was used to obtain the predicition of Claude 3.5-Sonnet. 
 - `GPT_inference.ipynb`: Jupyter Notebook that was used to obtain the predicition of the GPT models GPT-4o, GPT-4-1106-preview, GPT-4-turbo, and GPT-3.5.-turbo-0125. 
 - `LLaMA_inference.ipynb`: Jupyter Notebook used to obtain the predictions of LLaMA-3-8B and LLaMA-3-70B.
