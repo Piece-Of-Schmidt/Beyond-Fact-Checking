@@ -21,6 +21,7 @@ Beyond-Fact-Checking/
 |   └── ranger.rds
 |   └── signal.rds
 |   └── raw_texts.csv
+|   └── train_data_sample.jsonl
 │
 ├── .gitignore
 ├── Claude_inference.ipynb
@@ -31,6 +32,7 @@ Beyond-Fact-Checking/
 ├── README.md
 ├── RF_inference.R
 ├── create_plots.R
+├── chatgpt_fine_tuning.ipynb
 ```
 
 ## Folders and Files
@@ -43,6 +45,7 @@ Beyond-Fact-Checking/
 - `data/ranger.rds`: R-Object containing the RF models.
 - `data/signal.rds`: R-Object containing signal words for the RF models.
 - `data/raw_texts.csv`: CSV file containing the documents to be evaluated.
+- `data/train_data_sample.jsonl`: Sample file showing the training data used to fine-tune the LLMs.
 - `Claude_inference.ipynb`: Jupyter Notebook that was used to obtain the predicition of Claude 3.5-Sonnet. 
 - `GPT_inference.ipynb`: Jupyter Notebook that was used to obtain the predicition of the GPT models GPT-4o, GPT-4-1106-preview, GPT-4-turbo, and GPT-3.5.-turbo-0125. 
 - `LLaMA_inference.ipynb`: Jupyter Notebook used to obtain the predictions of LLaMA-3-8B and LLaMA-3-70B.
@@ -50,6 +53,7 @@ Beyond-Fact-Checking/
 - `NB_inference.R`: R script for running inference using the Naïve Bayes Model.
 - `RF_inference.R`: R script for running inference using the Random Forest Classifier.
 - `create_plots.R`: R script for creating the plots presented in the paper.
+- `chatgpt_fine_tuning.ipynb`: Jupyter Notebook illustrating the fine-tuning pipeline for the fine-tuned openAI models 
 
 **Please note:** To use the LLM inference scripts, you will need to pass an OpenAI, Mistral, or Groq API key, respectively.
 
